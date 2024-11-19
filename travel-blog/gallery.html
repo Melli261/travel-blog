@@ -1,113 +1,118 @@
 <!DOCTYPE html>
 <html lang="de">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="images/travel_junkie_favicon.png" type="image/png">
-        <link rel="stylesheet" href="styles.css">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-        <title>Travel Junkies</title>
-    </head>
-    <body>
-        <header>
-            <div class="header-container">
-                <a href="index.html" class="logo-link">
-                    <img src="images/travel_junkies_logo.png" alt="Logo" class="logo">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/travel_junkie_favicon.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Travel Junkies - Gallery</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo-link">
+                <img src="images/travel_junkies_logo.png" alt="Logo" class="logo">
+            </a>
+            <nav class="main-nav">
+                <a href="index.html">About me</a>
+                <a href="destinations.html">Destinations</a>
+                <a href="gallery.html" class="active">Gallery</a>
+            </nav>
+            <div class="social-links">
+                <a href="https://www.instagram.com/_melli_261/" target="_blank">
+                    <img src="images/black-instagram-icon.webp" alt="Instagram" class="social-icon">
                 </a>
-    
-                <nav class="main-nav">
-                    <a href="index.html">About me</a>
-                    <a href="destinations.html">Destinations</a>
-                    <a href="gallery.html" class="active">Gallery</a>
-                </nav>
-    
-                <div class="social-links">
-                    <a href="https://www.instagram.com/_melli_261/" target="_blank">
-                        <img src="images/black-instagram-icon.webp" alt="Instagram" class="social-icon">
-                    </a>
-                    <a href="https://www.linkedin.com/in/melanie-huber-095b6221a/" target="_blank">
-                        <img src="images/linkedin-square-icon.png" alt="LinkedIn" class="social-icon">
-                    </a>
-                    <a href="https://github.com/MelanieHuber261" target="_blank">
-                        <img src="images/github-icon.png" alt="GitHub" class="social-icon">
-                    </a>
+                <a href="https://www.linkedin.com/in/melanie-huber-095b6221a/" target="_blank">
+                    <img src="images/linkedin-square-icon.png" alt="LinkedIn" class="social-icon">
+                </a>
+                <a href="https://github.com/MelanieHuber261" target="_blank">
+                    <img src="images/github-icon.png" alt="GitHub" class="social-icon">
+                </a>
+            </div>
+        </div>
+        <div class="decorative-line"></div>
+    </header>
+
+    <main>
+        <section class="fade-in item-1">
+            <h2>HANOI</h2>
+            <div class="gallery-container">
+                <button class="scroll-btn left-btn" onclick="customScrollLeft('hanoi-gallery')">‹</button>
+                <div class="gallery" id="hanoi-gallery">
+                    <img src="images/hanoi1.jpg" alt="Hanoi Image 1">
+                    <img src="images/hanoi2.jpg" alt="Hanoi Image 2">
+                    <img src="images/hanoi3.jpg" alt="Hanoi Image 3">
+                    <img src="images/hanoi4.jpg" alt="Hanoi Image 4">
+                    <img src="images/hanoi5.jpg" alt="Hanoi Image 5">
+                    <img src="images/hanoi6.jpg" alt="Hanoi Image 6">
+                    <img src="images/hanoi7.jpg" alt="Hanoi Image 7">
+                    <img src="images/hanoi8.jpg" alt="Hanoi Image 8">
+                    <img src="images/hanoi9.jpg" alt="Hanoi Image 9">
+                    <img src="images/hanoi10.jpg" alt="Hanoi Image 10">
+                    <img src="images/hanoi11.jpg" alt="Hanoi Image 11">
+                    <img src="images/hanoi12.jpg" alt="Hanoi Image 12">
+                    <img src="images/hanoi13.jpg" alt="Hanoi Image 13">
+                    <img src="images/hanoi14.jpg" alt="Hanoi Image 14">
                 </div>
+                <button class="scroll-btn right-btn" onclick="customScrollRight('hanoi-gallery')">›</button>
             </div>
-            <div class="decorative-line"></div>
-        </header>
+        </section>
 
-        <!-- Hanoi Gallery -->
-        <h2>HANOI</h2>
-        <div class="gallery-container">
-            <button class="scroll-btn left-btn" onclick="scrollLeft('hanoi-gallery')">‹</button>
-            <div class="gallery" id="hanoi-gallery">
-                <img src="images/hanoi1.jpg" alt="Hanoi Image 1">
-                <img src="images/hanoi2.jpg" alt="Hanoi Image 2">
-                <img src="images/hanoi3.jpg" alt="Hanoi Image 3">
-                <img src="images/hanoi4.jpg" alt="Hanoi Image 4">
-                <img src="images/hanoi5.jpg" alt="Hanoi Image 5">
-                <img src="images/hanoi6.jpg" alt="Hanoi Image 6">
-                <img src="images/hanoi7.jpg" alt="Hanoi Image 7">
-                <img src="images/hanoi8.jpg" alt="Hanoi Image 8">
-                <img src="images/hanoi9.jpg" alt="Hanoi Image 9">
-                <img src="images/hanoi10.jpg" alt="Hanoi Image 10">
-                <img src="images/hanoi11.jpg" alt="Hanoi Image 11">
-                <img src="images/hanoi12.jpg" alt="Hanoi Image 12">
-                <img src="images/hanoi13.jpg" alt="Hanoi Image 13">
-                <img src="images/hanoi14.jpg" alt="Hanoi Image 14">
+        <section class="fade-in item-2">
+            <h2>BALI</h2>
+            <div class="gallery-container">
+                <button class="scroll-btn left-btn" onclick="customScrollLeft('bali-gallery')">‹</button>
+                <div class="gallery" id="bali-gallery">
+                    <img src="images/bali1.jpg" alt="Bali Image 1">
+                    <img src="images/bali2.jpg" alt="Bali Image 2">
+                    <img src="images/bali3.jpg" alt="Bali Image 3">
+                    <img src="images/bali4.jpg" alt="Bali Image 4">
+                    <img src="images/bali5.jpg" alt="Bali Image 5">
+                    <img src="images/bali6.jpg" alt="Bali Image 6">
+                    <img src="images/bali7.jpg" alt="Bali Image 7">
+                    <img src="images/bali8.jpg" alt="Bali Image 8">
+                    <img src="images/bali9.jpg" alt="Bali Image 9">
+                    <img src="images/bali10.jpg" alt="Bali Image 10">
+                    <img src="images/bali11.jpg" alt="Bali Image 11">
+                    <img src="images/bali12.jpg" alt="Bali Image 12">
+                    <img src="images/bali13.jpg" alt="Bali Image 13">
+                    <img src="images/bali14.jpg" alt="Bali Image 14">
+                </div>
+                <button class="scroll-btn right-btn" onclick="customScrollRight('bali-gallery')">›</button>
             </div>
-            <button class="scroll-btn right-btn" onclick="scrollRight('hanoi-gallery')">›</button>
-        </div>
+        </section>
 
-        <!-- Bali Gallery -->
-        <h2>BALI</h2>
-        <div class="gallery-container">
-            <button class="scroll-btn left-btn" onclick="scrollLeft('bali-gallery')">‹</button>
-            <div class="gallery" id="bali-gallery">
-                <img src="images/bali1.jpg" alt="Bali Image 1">
-                <img src="images/bali2.jpg" alt="Bali Image 2">
-                <img src="images/bali3.jpg" alt="Bali Image 3">
-                <img src="images/bali4.jpg" alt="Bali Image 4">
-                <img src="images/bali5.jpg" alt="Bali Image 5">
-                <img src="images/bali6.jpg" alt="Bali Image 6">
-                <img src="images/bali7.jpg" alt="Bali Image 7">
-                <img src="images/bali8.jpg" alt="Bali Image 8">
-                <img src="images/bali9.jpg" alt="Bali Image 9">
-                <img src="images/bali10.jpg" alt="Bali Image 10">
-                <img src="images/bali11.jpg" alt="Bali Image 11">
-                <img src="images/bali12.jpg" alt="Bali Image 12">
-                <img src="images/bali13.jpg" alt="Bali Image 13">
-                <img src="images/bali14.jpg" alt="Bali Image 14">
-
+        <section class="fade-in item-3">
+            <h2>PHUKET</h2>
+            <div class="gallery-container">
+                <button class="scroll-btn left-btn" onclick="customScrollLeft('phuket-gallery')">‹</button>
+                <div class="gallery" id="phuket-gallery">
+                    <img src="images/phuket1.jpg" alt="Phuket Image 1">
+                    <img src="images/phuket2.jpg" alt="Phuket Image 2">
+                    <img src="images/phuket3.jpg" alt="Phuket Image 3">
+                    <img src="images/phuket4.jpg" alt="Phuket Image 4">
+                    <img src="images/phuket5.jpg" alt="Phuket Image 5">
+                    <img src="images/phuket6.jpg" alt="Phuket Image 6">
+                    <img src="images/phuket7.jpg" alt="Phuket Image 7">
+                    <img src="images/phuket8.jpg" alt="Phuket Image 8">
+                    <img src="images/phuket9.jpg" alt="Phuket Image 9">
+                    <img src="images/phuket10.jpg" alt="Phuket Image 10">
+                    <img src="images/phuket11.jpg" alt="Phuket Image 11">
+                    <img src="images/phuket12.jpg" alt="Phuket Image 12">
+                    <img src="images/phuket13.jpg" alt="Phuket Image 13">
+                    <img src="images/phuket14.jpg" alt="Phuket Image 14">
+                </div>
+                <button class="scroll-btn right-btn" onclick="customScrollRight('phuket-gallery')">›</button>
             </div>
-            <button class="scroll-btn right-btn" onclick="scrollRight('bali-gallery')">›</button>
-        </div>
+        </section>
+    </main>
 
-        <!-- Phuket Gallery -->
-        <h2>PHUKET</h2>
-        <div class="gallery-container">
-            <button class="scroll-btn left-btn" onclick="scrollLeft('phuket-gallery')">‹</button>
-            <div class="gallery" id="phuket-gallery">
-                <img src="images/phuket1.jpg" alt="Phuket Image 1">
-                <img src="images/phuket2.jpg" alt="Phuket Image 2">
-                <img src="images/phuket3.jpg" alt="Phuket Image 3">
-                <img src="images/phuket4.jpg" alt="Phuket Image 4">
-                <img src="images/phuket5.jpg" alt="Phuket Image 5">
-                <img src="images/phuket6.jpg" alt="Phuket Image 6">
-                <img src="images/phuket7.jpg" alt="Phuket Image 7">
-                <img src="images/phuket8.jpg" alt="Phuket Image 8">
-                <img src="images/phuket9.jpg" alt="Phuket Image 9">
-                <img src="images/phuket10.jpg" alt="Phuket Image 10">
-                <img src="images/phuket11.jpg" alt="Phuket Image 11">
-                <img src="images/phuket12.jpg" alt="Phuket Image 12">
-                <img src="images/phuket13.jpg" alt="Phuket Image 13">
-                <img src="images/phuket14.jpg" alt="Phuket Image 14">
-
-            </div>
-            <button class="scroll-btn right-btn" onclick="scrollRight('phuket-gallery')">›</button>
-        </div>
-
-        <!-- Einbinden der JavaScript-Datei -->
-        <script src="App.js"></script>
-    </body>
+    <div id="fullscreen-container">
+        <img id="fullscreen-image" src="" alt="Vollbild">
+        <span id="close-btn">&times;</span>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
 </html>
